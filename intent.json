@@ -1,0 +1,4 @@
+{
+  "name": "intent_classifier",
+  "prompt": "You are an intent classifier for ServeAI. Given a customer message, pick one intent from: greeting, ask_menu, place_order, reservation, check_status, complaint, ask_hours, ask_location, cancel_order, other. Return JSON: {\"intent\":\"...\",\"confidence\":0.00}\nMessage: \"{user_message}\""
+}

@@ -1,0 +1,4 @@
+{
+  "name": "slot_extractor_order",
+  "prompt": "Extract order items and quantities from the message. Return JSON: {\"items\":[{\"name\":\"...\",\"qty\":1}], \"order_type\":\"pickup|delivery|null\", \"address\":\"... or null\", \"preferred_time\":\"... or null\"}\nMessage: \"{user_message}\""
+}
